@@ -1,0 +1,50 @@
+{
+  "name": "CLTV Redeem Script — أداة إنفاق المعاملات",
+  "short_name": "CLTV Tool",
+  "description": "أداة Bitcoin لبناء وتوقيع وبث معاملات CLTV بأنواع P2SH و P2WSH و P2TR",
+  "start_url": "./Taproot3.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf8f5",
+  "theme_color": "#8b7355",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "إنشاء Script",
+      "short_name": "إنشاء",
+      "description": "توليد redeem script جديد",
+      "url": "./Taproot3.html#tab-generate"
+    },
+    {
+      "name": "توقيع معاملة",
+      "short_name": "توقيع",
+      "description": "بناء وتوقيع معاملة CLTV",
+      "url": "./Taproot3.html#tab-sign"
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
